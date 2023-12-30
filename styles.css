@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Neutral-Regular";
+  src: url(/assets/fonts/ofont.ru_TS\ Remarker.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.top-menu {
+  background-color: blanchedalmond;
+  padding: 0px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.top-menu__img {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Neutral-Regular";
+}
+h2 {
+  text-align: center;
+  font-family: "Neutral-Regular";
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  align-self: center;
+  text-align: center;
+  padding: 0 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.img-slider {
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  padding: 0 10px;
+}
+.img {
+  height: 50%;
+  width: 50%;
+  align-self: center;
+}
+.content-container-reveal {
+  display: flex;
+  flex-direction: column;
+}
+.content-container-reveal h2 {
+  margin-bottom: 10px;
+}
+.content-container-reveal p {
+  margin-top: 0;
+}
+
+img {
+  border-radius: 3%;
+}
+footer,
+footer p {
+  background-color: blanchedalmond;
+  margin-top: 10px;
+}
+footer p {
+  margin: 16px 0 0;
+  padding: 5px;
+}
